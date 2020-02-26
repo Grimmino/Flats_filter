@@ -1,0 +1,45 @@
+.rooms
+    display: flex
+    @media (max-width: 768px)
+        flex-direction: column
+        
+
+    &__filter
+        flex: 1 0
+        padding: 0 24px 0 0
+        @media (min-width: 768px)
+            flex: 1 0 275px
+            max-width: 275px
+    
+    &__info
+        flex: 1
+        background: $neo-black
+        border-left: 1px solid $neo-black
+
+.filter
+    &__item
+        &:not(:last-child)
+            margin-bottom: 20px
+
+    &__list
+        display: flex
+        flex-wrap: wrap
+
+    &__label
+        margin-top: 10px
+        margin-right: 8px
+
+    &__fakeinput
+        .filter__input:checked + &
+            background: $neo-white
+            box-shadow: -2px -2px 3px inset $neo-white,2px 2px 3px inset $neo-black-active
+            &:hover
+                background: none
+
+    &__input
+        position: absolute
+        appearance: none
+        width: 1px
+        height: 1px
+        overflow: hidden
+        clip: rect(0 0 0 0)
