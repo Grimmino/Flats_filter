@@ -2,8 +2,6 @@
 import 'normalize.css'
 //styles
 import './sass/style.sass'
-
-import './js/main'
 //react
 import React from 'react'
 import {render} from 'react-dom'

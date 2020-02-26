@@ -20591,7 +20591,7 @@ var Rooms = function Rooms(props) {
   }, cardRooms.map(function (item, index) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       key: index
-    }, "\u041A\u043E\u043B\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u043A\u043E\u043C\u043D\u0430\u0442 \u0432 \u043A\u0432\u0430\u0440\u0442\u0438\u0440\u0435-", item.id, " \u043F\u043B\u043E\u0449\u0430\u0434\u044C\u044E ", item.area, " \u0440\u0430\u0432\u043D\u043E: ", item.rooms);
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u041A\u043E\u043B\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u043A\u043E\u043C\u043D\u0430\u0442 \u0432 \u043A\u0432\u0430\u0440\u0442\u0438\u0440\u0435-", item.id, " \u043F\u043B\u043E\u0449\u0430\u0434\u044C\u044E ", item.area, " \u0440\u0430\u0432\u043D\u043E: ", item.rooms), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u0426\u0435\u043D\u0430 ", item.price), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u0411\u043B\u043E\u043A ", item.block));
   })));
 };
 
@@ -20612,34 +20612,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var normalize_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(normalize_css__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _sass_style_sass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sass/style.sass */ "./sass/style.sass");
 /* harmony import */ var _sass_style_sass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sass_style_sass__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _js_main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./js/main */ "./js/main.js");
-/* harmony import */ var _js_main__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_js_main__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-dom */ "../node_modules/react-dom/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _components_App_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/App.jsx */ "./components/App.jsx");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-dom */ "../node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_App_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/App.jsx */ "./components/App.jsx");
 //vendors
  //styles
-
 
  //react
 
 
 
 
-Object(react_dom__WEBPACK_IMPORTED_MODULE_4__["render"])(react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_components_App_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], null), document.getElementById('app'));
-
-/***/ }),
-
-/***/ "./js/main.js":
-/*!********************!*\
-  !*** ./js/main.js ***!
-  \********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-
+Object(react_dom__WEBPACK_IMPORTED_MODULE_3__["render"])(react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_App_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], null), document.getElementById('app'));
 
 /***/ }),
 
@@ -20650,7 +20636,7 @@ Object(react_dom__WEBPACK_IMPORTED_MODULE_4__["render"])(react__WEBPACK_IMPORTED
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"id\":1,\"rooms\":2,\"area\":154.3},{\"id\":2,\"rooms\":3,\"area\":169.32},{\"id\":3,\"rooms\":4,\"area\":179.12},{\"id\":4,\"rooms\":3,\"area\":169.32},{\"id\":5,\"rooms\":2,\"area\":169.31},{\"id\":6,\"rooms\":3,\"area\":169.32},{\"id\":7,\"rooms\":4,\"area\":179.12},{\"id\":8,\"rooms\":5,\"area\":154.3}]");
+module.exports = JSON.parse("[{\"id\":1,\"rooms\":2,\"area\":154.3,\"block\":\"A\",\"price\":\"111111111\",\"img\":\"/\"},{\"id\":2,\"rooms\":3,\"area\":169.32,\"block\":\"A\",\"price\":\"111111111\",\"img\":\"/\"},{\"id\":3,\"rooms\":4,\"area\":179.12,\"block\":\"B\",\"price\":\"111111111\",\"img\":\"/\"},{\"id\":4,\"rooms\":3,\"area\":169.32,\"block\":\"C\",\"price\":\"111111111\",\"img\":\"/\"},{\"id\":5,\"rooms\":2,\"area\":169.31,\"block\":\"D\",\"price\":\"111111111\",\"img\":\"/\"},{\"id\":6,\"rooms\":3,\"area\":169.32,\"block\":\"D\",\"price\":\"111111111\",\"img\":\"/\"},{\"id\":7,\"rooms\":4,\"area\":179.12,\"block\":\"C\",\"price\":\"111111111\",\"img\":\"/\"},{\"id\":8,\"rooms\":5,\"area\":154.3,\"block\":\"B\",\"price\":\"111111111\",\"img\":\"/\"}]");
 
 /***/ }),
 

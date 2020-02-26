@@ -2,41 +2,65 @@
     {
         "id": 1,
         "rooms": 2,
-        "area": 154.30
+        "area": 154.30,
+        "block": "A",
+        "price": "111111111",
+        "img": "/"
     },
     {
         "id": 2,
         "rooms": 3,
-        "area": 169.32
+        "area": 169.32,
+        "block": "A",
+        "price": "111111111",
+        "img": "/"
     },
     {
         "id": 3,
         "rooms": 4,
-        "area": 179.12
+        "area": 179.12,
+        "block": "B",
+        "price": "111111111",
+        "img": "/"
     },
     {
         "id": 4,
         "rooms": 3,
-        "area": 169.32
+        "area": 169.32,
+        "block": "C",
+        "price": "111111111",
+        "img": "/"
     },
     {
         "id": 5,
         "rooms": 2,
-        "area": 169.31
+        "area": 169.31,
+        "block": "D",
+        "price": "111111111",
+        "img": "/"
     },
     {
         "id": 6,
         "rooms": 3,
-        "area": 169.32
+        "area": 169.32,
+        "block": "D",
+        "price": "111111111",
+        "img": "/"
     },
     {
         "id": 7,
         "rooms": 4,
-        "area": 179.12
+        "area": 179.12,
+        "block": "C",
+        "price": "111111111",
+        "img": "/"
     },
     {
         "id": 8,
         "rooms": 5,
-        "area": 154.30
+        "area": 154.30,
+        "block": "B",
+        "price": "111111111",
+        "img": "/"
     }
 ]

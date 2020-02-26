@@ -16,7 +16,11 @@ const Rooms = props => {
         
             <div className="rooms__info">
                 {cardRooms.map((item, index) => (
-                    <div key={index}>Колличество комнат в квартире-{item.id} площадью {item.area} равно: {item.rooms}</div>
+                    <div key={index}>
+                        <span>Колличество комнат в квартире-{item.id} площадью {item.area} равно: {item.rooms}</span>
+                        <span>Цена {item.price}</span>
+                        <span>Блок {item.block}</span>
+                    </div>
                 ))}
             </div>
         </div>
