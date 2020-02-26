@@ -3,12 +3,15 @@
     flex-wrap: wrap
 
 .card
-    flex: 1 0 25%
-    max-width: 25%
+    flex: 1 0 100%
+    max-width: 100%
     padding: 10px 20px
-    @media (max-width: 1200px)
+    @media (min-width: 768px)
         flex: 1 0 50%
         max-width: 50%
+    @media (min-width: 1200px)
+        flex: 1 0 25%
+        max-width: 25%
 
     &__inner
         background: #f1f1f1
