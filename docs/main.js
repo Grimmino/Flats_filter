@@ -20561,6 +20561,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Filter_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Filter.jsx */ "./components/rooms/Filter.jsx");
+/* harmony import */ var _img_1_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../img/1.jpg */ "./img/1.jpg");
+/* harmony import */ var _img_2_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../img/2.jpg */ "./img/2.jpg");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
@@ -20568,6 +20570,8 @@ function _nonIterableRest() { throw new TypeError("Invalid attempt to destructur
 function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
 
 
 
@@ -20587,15 +20591,51 @@ var Rooms = function Rooms(props) {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Filter_jsx__WEBPACK_IMPORTED_MODULE_1__["Filter"], {
     getFilter: getFilter
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "rooms__info"
+    className: "rooms__info grid"
   }, cardRooms.map(function (item, index) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "card",
       key: index
-    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u041A\u043E\u043B\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u043A\u043E\u043C\u043D\u0430\u0442 \u0432 \u043A\u0432\u0430\u0440\u0442\u0438\u0440\u0435-", item.id, " \u043F\u043B\u043E\u0449\u0430\u0434\u044C\u044E ", item.area, " \u0440\u0430\u0432\u043D\u043E: ", item.rooms), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u0426\u0435\u043D\u0430 ", item.price), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u0411\u043B\u043E\u043A ", item.block));
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "card__inner"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "card__img"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: _img_1_jpg__WEBPACK_IMPORTED_MODULE_2__["default"],
+      alt: ""
+    })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "card__content"
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u041A\u043E\u043B\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u043A\u043E\u043C\u043D\u0430\u0442 \u0432 \u043A\u0432\u0430\u0440\u0442\u0438\u0440\u0435-", item.id, " \u043F\u043B\u043E\u0449\u0430\u0434\u044C\u044E ", item.area, " \u0440\u0430\u0432\u043D\u043E: ", item.rooms), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u0426\u0435\u043D\u0430 ", item.price), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "\u0411\u043B\u043E\u043A ", item.block))));
   })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Rooms);
+
+/***/ }),
+
+/***/ "./img/1.jpg":
+/*!*******************!*\
+  !*** ./img/1.jpg ***!
+  \*******************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "./img/1.jpg");
+
+/***/ }),
+
+/***/ "./img/2.jpg":
+/*!*******************!*\
+  !*** ./img/2.jpg ***!
+  \*******************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "./img/2.jpg");
 
 /***/ }),
 
@@ -20636,7 +20676,7 @@ Object(react_dom__WEBPACK_IMPORTED_MODULE_3__["render"])(react__WEBPACK_IMPORTED
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"id\":1,\"rooms\":2,\"area\":154.3,\"block\":\"A\",\"price\":\"111111111\",\"img\":\"/\"},{\"id\":2,\"rooms\":3,\"area\":169.32,\"block\":\"A\",\"price\":\"111111111\",\"img\":\"/\"},{\"id\":3,\"rooms\":4,\"area\":179.12,\"block\":\"B\",\"price\":\"111111111\",\"img\":\"/\"},{\"id\":4,\"rooms\":3,\"area\":169.32,\"block\":\"C\",\"price\":\"111111111\",\"img\":\"/\"},{\"id\":5,\"rooms\":2,\"area\":169.31,\"block\":\"D\",\"price\":\"111111111\",\"img\":\"/\"},{\"id\":6,\"rooms\":3,\"area\":169.32,\"block\":\"D\",\"price\":\"111111111\",\"img\":\"/\"},{\"id\":7,\"rooms\":4,\"area\":179.12,\"block\":\"C\",\"price\":\"111111111\",\"img\":\"/\"},{\"id\":8,\"rooms\":5,\"area\":154.3,\"block\":\"B\",\"price\":\"111111111\",\"img\":\"/\"}]");
+module.exports = JSON.parse("[{\"id\":1,\"rooms\":2,\"area\":154.3,\"block\":\"A\",\"price\":\"111111111\",\"img\":\"1\"},{\"id\":2,\"rooms\":3,\"area\":169.32,\"block\":\"A\",\"price\":\"111111111\",\"img\":\"2\"},{\"id\":3,\"rooms\":4,\"area\":179.12,\"block\":\"B\",\"price\":\"111111111\",\"img\":\"2\"},{\"id\":4,\"rooms\":3,\"area\":169.32,\"block\":\"C\",\"price\":\"111111111\",\"img\":\"1\"},{\"id\":5,\"rooms\":2,\"area\":169.31,\"block\":\"D\",\"price\":\"111111111\",\"img\":\"1\"},{\"id\":6,\"rooms\":3,\"area\":169.32,\"block\":\"D\",\"price\":\"111111111\",\"img\":\"2\"},{\"id\":7,\"rooms\":4,\"area\":179.12,\"block\":\"C\",\"price\":\"111111111\",\"img\":\"2\"},{\"id\":8,\"rooms\":5,\"area\":154.3,\"block\":\"B\",\"price\":\"111111111\",\"img\":\"2\"}]");
 
 /***/ }),
 

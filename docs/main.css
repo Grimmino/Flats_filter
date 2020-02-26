@@ -331,6 +331,40 @@ template {
 h1 {
   margin: 0 0 24px 0; }
 
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 25%;
+          flex: 1 0 25%;
+  max-width: 25%;
+  padding: 10px 20px; }
+  @media (max-width: 1200px) {
+    .card {
+      -webkit-box-flex: 1;
+          -ms-flex: 1 0 50%;
+              flex: 1 0 50%;
+      max-width: 50%; } }
+  .card__inner {
+    background: #f1f1f1; }
+  .card__img {
+    position: relative;
+    padding: 0 0 58% 0; }
+  .card__content {
+    padding: 20px; }
+
 * {
   margin: 0;
   padding: 0;
@@ -368,9 +402,10 @@ body {
   .rooms__info {
     -webkit-box-flex: 1;
         -ms-flex: 1;
-            flex: 1;
-    background: rgba(8, 8, 12, 0.03);
-    border-left: 1px solid rgba(8, 8, 12, 0.03); }
+            flex: 1; }
+    @media (min-width: 768px) {
+      .rooms__info {
+        border-left: 1px solid rgba(8, 8, 12, 0.03); } }
 
 .filter__item:not(:last-child) {
   margin-bottom: 20px; }
